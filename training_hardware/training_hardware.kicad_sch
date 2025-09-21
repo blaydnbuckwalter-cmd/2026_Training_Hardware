@@ -5,6 +5,36 @@
 	(uuid "13ce2e34-cc5b-4cfe-ac61-3c662d8291c3")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133dd34b-3afd-472c-b3e2-0afcf4537b0a")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823fcdaa-8bc2-475b-b83d-1f71aba033bc")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9481ace6-8021-4e80-9349-1f95b4fa19ad")
+	)
 	(sheet
 		(at 193.04 68.58)
 		(size 62.23 38.1)
@@ -81,6 +111,36 @@
 				(justify left top)
 			)
 		)
+		(pin "CTX1" output
+			(at 127 78.74 180)
+			(uuid "46a85e75-910c-46fe-aea6-15dcea06b52b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CRX1" input
+			(at 127 83.82 180)
+			(uuid "bc1a0493-209a-43d8-84b9-42b606c76a15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 127 88.9 180)
+			(uuid "e7e2c81b-d450-4117-996b-350a1979e59f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "training_hardware"
 				(path "/13ce2e34-cc5b-4cfe-ac61-3c662d8291c3"
@@ -121,6 +181,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 121.92 83.82 0)
+			(uuid "e4fc96e1-ea46-4bb0-bd27-98a4af9f0fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 121.92 88.9 0)
+			(uuid "5282c47b-3e07-47a9-ada4-b4dcaa129d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 121.92 78.74 0)
+			(uuid "9fef6661-03a8-4666-b7b3-42acb0413968")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
